@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+div{
+    height: 5rem;;
+    display: flex;
+    align-items: center;
+    padding: 0px 40rem;
+    background-color: #021520;
+    border-bottom: 0.5rem solid #07728B; 
+    width: 100%;
+  
+}
