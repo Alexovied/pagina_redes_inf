@@ -1,15 +1,52 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    
 }
-div{
-    height: 5rem;;
+
+html, body {
+    height: 100%;
+}
+
+body {
     display: flex;
-    align-items: center;
-    padding: 0px 40rem;
+    flex-direction: column;
+}
+
+.logo {
+    height: 5rem;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 0;
     background-color: #021520;
     border-bottom: 0.5rem solid #07728B; 
     width: 100%;
-  
+}
+
+main {
+    background-color: black;
+    flex: 1;
+}
+
+footer {
+    background-color: #021520;
+}
+
+.PRINCIPAL {
+    background-color: #0000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.PRINCIPAL img{
+    width: calc(33.333% - 10px);
+    margin-bottom: 15px;
+}
+
+
+.foot {
+    border-top: 0.5rem solid #07728B;
+    background-color: #021520; 
+    height: 10rem;
 }
