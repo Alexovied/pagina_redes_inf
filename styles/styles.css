@@ -40,13 +40,19 @@ footer {
     margin: 20px;
 }
 .PRINCIPAL img{
-    width: calc(33.333% - 10px);
-    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
-
+.PRINCIPAL a{
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
 
 .foot {
     border-top: 0.5rem solid #07728B;
     background-color: #021520; 
     height: 10rem;
+    
 }
